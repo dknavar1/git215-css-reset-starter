@@ -1,3 +1,5 @@
+
+
 /* ----- ROOT VARIABLES ----- */
 :root{
     --deep-grn: #313732;
@@ -27,12 +29,14 @@ body{
     line-height: 1.4;
     background-color: var(--dk-gray);
     color: var(--dk-gray);
+    margin: 8px;
 }
 
 /* ----- CONTAINER WIDTH STYLES ----- */
 header, main, footer{
     width: 1280px;
     margin: 0 auto;
+    line-height: 1.4;
 }
 
 /* ----- HEADER STYLES ----- */
@@ -79,10 +83,13 @@ header img{
 h1, h2, h3{
     font-family: var(--heading-fonts);
     text-align: center;
+    font-weight: bold;
 }
 
 h1{
     color: var(--light-gray);
+    font-size: 2rem;
+    margin: 0.67em 0;
 }
 
 /* ----- NAVIGATION STYLES ----- */
@@ -90,6 +97,7 @@ nav{
     width: 800px;
     margin: 0 auto;
     padding-top: 1rem;
+    line-height: 1.4;
 }
 
 nav ul{
@@ -97,6 +105,7 @@ nav ul{
     justify-content: space-around;
     padding-left: 0;
     list-style-type: none;
+    margin: 1em 0;
 } 
 
 nav a{
@@ -124,7 +133,7 @@ nav a:hover{
 /* ----- MAIN STYLES ----- */
 main{
     background-color: var(--light-gray);
-    height: 2200px;
+    height: 2400px;
 }
 
 /* ----- TEAL BACKGROUND TRIANGLE STYLES ----- */
@@ -182,7 +191,6 @@ main{
     grid-column: 2/3;
     grid-row: 1/2;
     text-align: left;
-    margin: 0;
 }
 
 .orange{
@@ -232,6 +240,7 @@ header p{
 #skills h2{
     grid-column: 1/-1;
     font-size: 2.5rem;
+    padding: 2rem;
 }
 
 #skills section{
@@ -271,6 +280,7 @@ header p{
 #portfolio{
     position: relative;
     top: -1785px;
+    margin: 0;
 }
 
 #portfolio ul{
@@ -309,6 +319,8 @@ header p{
     cursor: pointer;
     display: block;
     position: static;
+    padding: 2em;
+    font-size: 1.1rem;
 }
 
 .card:hover, .card:focus-within{
@@ -318,6 +330,7 @@ header p{
 #portfolio h2{
     grid-column: 1/-1;
     font-size: 2.5rem;
+    padding-top: 1em;
 }
 
 /* ----- FOOTER STYLES ----- */
